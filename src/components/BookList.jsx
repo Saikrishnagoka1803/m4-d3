@@ -12,7 +12,7 @@ class BookList extends Component {
     {
         return (
         <Container>
-            <input className='mt-3 p-3 ml-3' type='text' 
+            <input className='mt-3 p-3 ml-3' type='text' key={this.props.book._id}
             placeholder='search with title names'  
             value={this.state.searchText}
             onChange={e => this.setState({
