@@ -12,14 +12,14 @@ class BookList extends Component {
     {
         return (
         <Container>
-            <input type='text' 
-            placeholder='search' 
+            <input className='mt-3 p-3 ml-3' type='text' 
+            placeholder='search with title names'  
             value={this.state.searchText}
             onChange={e => this.setState({
                 searchText:e.target.value})} />
          
             <Row >
-                {this.props.book.slice(0,50).filter(e=>e.title.toLowerCase().includes(this.state.searchText)).map(ele => (<SingleBook data={ele}/>))}
+                {this.props.book.slice(0,50).filter(e=>e.title.toLowerCase().includes(this.state.searchText)).map(ele => (<SingleBook data={ele}  />))}
             </Row>
         </Container>
          )

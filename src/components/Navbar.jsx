@@ -1,7 +1,7 @@
 import { Navbar,Nav,Container,NavDropdown } from "react-bootstrap";
 
 const MyNavbar = () => {
-    return <container>
+    return <Container>
         <Navbar bg="primary" expand="lg">
   <Container>
     <Navbar.Brand href="#home">React-BookShop</Navbar.Brand>
@@ -21,6 +21,6 @@ const MyNavbar = () => {
     </Navbar.Collapse>
   </Container>
 </Navbar>
-    </container>
+    </Container>
 }
 export default MyNavbar

@@ -7,12 +7,8 @@ import SingleBook from './components/SingleBook';
 import BookList from './components/BookList';
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-
-//import WarningSign from './WarningSign'
-//import ReservationForm from './Form'
 import horrors from './data/horror.json'
 
-//import SingleBook from './SingleBook';
 //import MuiAlert from "@material-ui/lab/Alert"
 
 function App() {
